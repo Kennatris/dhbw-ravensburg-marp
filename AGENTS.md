@@ -9,14 +9,14 @@ Dieser Leitfaden ist verbindlich für alle KI-Agenten (Antigravity, Cursor, GitH
 * **Repository:** DHBW Ravensburg Marp Presentation Template.
 * **Technologie:** [Marp](https://marp.app/) (Markdown Presentation Ecosystem) mit `@marp-team/marp-cli`.
 * **Standard-Format:** 16:9 Bildformat (`1280px` x `720px`).
-* **Theme:** [themes/dhbw.css](file:///Users/finnhertsch/projects/dhbw-ravensburg-marp/themes/dhbw.css) (Eigenständiges DHBW Corporate Design Theme).
+* **Theme:** [themes/dhbw.css](themes/dhbw.css) (Eigenständiges DHBW Corporate Design Theme).
 
 ---
 
 ## 🌿 2. Git-Branching-Workflow (STRIKT EINHALTEN)
 
 1. **`main`-Branch:**
-   * Ist das **reine Template**. Hier liegen ausschließlich Theme-Dateien, Basis-Assets, Konfigurationen und die Vorlage [slides.md](file:///Users/finnhertsch/projects/dhbw-ravensburg-marp/slides.md).
+   * Ist das **reine Template**. Hier liegen ausschließlich Theme-Dateien, Basis-Assets, Konfigurationen und die Vorlage [slides.md](slides.md).
    * **Niemals** themenspezifische Inhalte direkt auf `main` committen.
 
 2. **Präsentations-Branches (`presentation/<name>`):**
@@ -87,3 +87,9 @@ npm run build:all   # Baut HTML, PDF und PPTX in dist/
 # IMMER das virtuelle Environment nutzen:
 .venv/bin/python <script.py>
 ```
+
+<!-- project-standards:start -->
+## Ergänzender Projektstandard vom 22.10.2026
+
+Bestehende Fach-, Task- und Branchregeln bleiben maßgeblich. [Projektleitfaden](docs/PROJECT_GUIDE.md) und [Beitragsablauf](CONTRIBUTING.md) beschreiben den ergänzenden Dokumentationsstandard. Änderungen an Daten, Architektur oder Schnittstellen aktualisieren diese Unterlagen im selben PR; tatsächlich ausgeführte Prüfungen von offenen Nachweisen trennen.
+<!-- project-standards:end -->

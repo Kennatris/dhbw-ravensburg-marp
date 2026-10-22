@@ -298,3 +298,13 @@ Dunkler Hintergrund für Code-Demonstrationen oder abendliche Präsentationen.
 ## 📄 Lizenz
 Template & Theme stehen unter der [MIT License](LICENSE).  
 Die Bildmarken und Logos der DHBW Ravensburg unterliegen dem Marken- und Urheberrecht der Dualen Hochschule Baden-Württemberg.
+
+<!-- project-standards:start -->
+## Projektführung
+
+Markdown-Präsentationstemplate mit Marp, eigenem Theme, Referenzassets und npm-Buildskripten.
+
+[Dokumentation und Einrichtung](docs/PROJECT_GUIDE.md) · [Agentenregeln](AGENTS.md) · [Beiträge und Prüfung](CONTRIBUTING.md) · [Sicherheitsmeldungen](SECURITY.md)
+
+Der dokumentierte Inventarstand ist vom 22.10.2026. Tatsächlich ausgeführte Prüfungen und offene Betriebs-/Lizenzfragen werden im Projektleitfaden getrennt ausgewiesen.
+<!-- project-standards:end -->
